@@ -16,3 +16,17 @@ fruit_set = {'Apples', 'Orange', 'Mangoes'}
 
 print(fruit_set)
 
+findStr = 'Apples' in fruit_set
+print(findStr)
+
+findStr = fruit_set.add('Grape')
+print(fruit_set)
+
+findStr = fruit_set.remove('Orange')
+print(fruit_set)
+
+fruit_set.clear()
+print(fruit_set)
+
+del fruit_set
+
